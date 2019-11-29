@@ -4,6 +4,8 @@ namespace MethodsTraining {
   class Program {
     static void Main (string[] args) {
 
+    }
+    static void UsePoints () {
       try {
         var calculator = new Calculator ();
         var result1 = calculator.Add (new int[] { 1, 2, 3, 4, });
@@ -16,7 +18,6 @@ namespace MethodsTraining {
       } catch (System.Exception) {
         Console.WriteLine ("An unexpected error accured.");
       }
-
     };
   }
 }
