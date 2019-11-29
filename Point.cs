@@ -16,8 +16,8 @@ namespace MethodsTraining {
     };
 
     public void Move (Point newLocation) {
-      this.X = newLocation.x;
-      this.Y = newLocation.y;
+      Move (newLocation.X, newLocation.Y);
+
     };
   }
 }
